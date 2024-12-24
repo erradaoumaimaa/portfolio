@@ -13,16 +13,16 @@ function Footer() {
     <Container fluid className="footer">
       <Row>
         <Col md="4" className="footer-copywright">
-          <h3>Douaa Chemnane </h3>
+          <h3>Oumaima Errada </h3>
         </Col>
         <Col md="4" className="footer-copywright">
-          <h3>Copyright © {year} Douaa</h3>
+          <h3>Copyright © {year} Oumaima</h3>
         </Col>
         <Col md="4" className="footer-body">
           <ul className="footer-icons">
             <li className="social-icons">
               <a
-                href="https://github.com/Douaa1819"
+                href="https://github.com/erradaoumaimaa"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
@@ -33,7 +33,7 @@ function Footer() {
          
             <li className="social-icons">
               <a
-                href="https://www.linkedin.com/in/douae-chemnane-b75bba254/"
+                href="https://www.linkedin.com/in/oumaima-errada-94308219b/"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"

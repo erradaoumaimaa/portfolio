@@ -4,38 +4,40 @@ import { ImPointRight } from "react-icons/im";
 
 function AboutCard() {
   return (
-<Card className="quote-card-view">
-<Card.Body>
-  <blockquote className="blockquote mb-0">
-    <p style={{ textAlign: "justify" }}>
-      Hello, I am <span className="purple"> Douaa Chemnane</span> from 
-      <span className="purple">  Safi, Morocco.</span>
-      <br />
-      I am currently pursuing my studies at YouCode, where I am focused on developing my skills in full-stack web development.
-      <br />
-      <br />
-      In addition to coding, I enjoy engaging in various activities that help me stay balanced and creative.
-    </p>
-    <ul>
-    <li className="about-activity">
-              <ImPointRight /> Playing Video Games
+    <Card className="quote-card-view">
+      <Card.Body>
+        <blockquote className="blockquote mb-0">
+          <p style={{ textAlign: "justify" }}>
+            Hello, I am <span className="purple">Oumaima Errada</span> from 
+            <span className="purple"> Safi, Morocco.</span>
+            <br />
+            I am a full-stack developer with experience in building scalable applications using 
+            <span className="purple"> Java, Spring Boot, Laravel, React,</span> and 
+            <span className="purple"> Angular.</span>
+            <br />
+            I enjoy solving complex problems and designing clean, user-focused solutions.
+            <br />
+            <br />
+            When I'm not coding, I engage in activities that inspire me and improve my creativity.
+          </p>
+          <ul>
+            <li className="about-activity">
+              <ImPointRight /> Exploring New Technologies
             </li>
             <li className="about-activity">
-              <ImPointRight /> Watching Anime
+              <ImPointRight /> Collaborating on Open Source Projects
             </li>
             <li className="about-activity">
-              <ImPointRight /> Cooking 
+              <ImPointRight /> Learning New Skills
             </li>
           </ul>
           <p style={{ color: "rgb(155 126 172)", fontStyle: "italic" }}>
-            "Strive to create solutions that make a meaningful impact."
+            "Code not just to solve problems, but to build something meaningful."
           </p>
-    <footer className="blockquote-footer">Douaa Chemnane</footer>
-  </blockquote>
-</Card.Body>
-
-</Card>
-
+          <footer className="blockquote-footer">Oumaima Errada</footer>
+        </blockquote>
+      </Card.Body>
+    </Card>
   );
 }
 
